@@ -6,3 +6,5 @@
 *.ear
 /.project
 /bin
+/target
+/.lein-failures
