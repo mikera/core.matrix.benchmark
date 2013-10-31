@@ -1,5 +1,6 @@
 (ns clojure.core.matrix.benchmark.test-implementations
   (:use clojure.core.matrix)
+  (:use clojure.test)
   (:use clojure.core.matrix.stats)
   (:require [clojure.core.matrix.operators])
   (:require clojure.core.matrix.compliance-tester)
@@ -8,4 +9,5 @@
 
 
 (deftest test-impls
-  (clojure.core.matrix.compliance-tester/implementation-test :vectorz))
+  (clojure.core.matrix.compliance-tester/compliance-test :vectorz)
+  (clojure.core.matrix.compliance-tester/compliance-test :clatrix))
