@@ -10,3 +10,5 @@
 /.lein-failures
 /.classpath
 /.settings
+.lein-repl-history
+.nrepl-port
