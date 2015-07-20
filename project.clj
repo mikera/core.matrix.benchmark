@@ -3,7 +3,7 @@
   :url "https://github.com/mikera/core.matrix.benchmark"
   :dev-dependencies [[lein-expectations "0.0.8"]
                      [expectations "1.4.41"]]
-  :dependencies [[org.clojure/clojure "1.8.0-temp"]
+  :dependencies [[org.clojure/clojure "1.8.0-alpha2"]
                  [net.mikera/core.matrix "0.36.1"]
                  [net.mikera/core.matrix.stats "0.6.0"]
                  [net.mikera/vectorz-clj "0.30.1"]
